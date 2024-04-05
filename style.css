@@ -1,0 +1,14 @@
+* {
+    font-family: Tahoma, sans-serif;
+}
+.logo {
+    width: 50px;
+    height: auto;
+}
+.navbar {
+    display: flex;
+    height: 100px;
+}
+.nav-item {
+    flex: 1;
+}
