@@ -1,14 +1,84 @@
 * {
     font-family: Tahoma, sans-serif;
+    margin: 10px 40px;
 }
 .logo {
     width: 50px;
     height: auto;
+    flex: 0 1 auto;
+    margin-right: auto;
 }
 .navbar {
     display: flex;
-    height: 100px;
+    justify-content: center;
+    gap: 25px;
 }
 .nav-item {
     flex: 1;
+    list-style: none;
+    display: inline-block;
+    
+}
+.briga {
+    width: 500px;
+    height: auto;
+}
+.hero {
+    display: flex;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-title {
+    text-align: center;
+}
+.info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+.info-card-text {
+    text-align: center;
+}
+.info-card-border {
+    display: border;
+    width: 150px;
+    height: 150px;
+    border: 5px solid blue;
+    border-radius: 25px;
+}
+.quote {
+    height: 350px;
+    margin: 50px 0px;
+    align-items: center;
+}
+.quote-text {
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+}
+.quote-sayer {
+    font-weight: bolder;
+    text-align: end;
+}
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    margin: 150px 0px;
+    border: 2px solid blue;
+    border-radius: 25px;
+}   
+
+.copyright {
+    text-align: center;
 }
